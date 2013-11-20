@@ -124,11 +124,12 @@ var gameScene = Class.create(Scene, {
             }
         });
 
-        // spoon[0].addEventListener('touchstart', function() {
-        //     for(var i=1; i<4; i++) {
-        //         spoon[i].image = game.assets[];
-        //     }
-        // });
+        spoon[0].addEventListener('touchstart', function() {
+            for(var i=1; i<4; i++) {
+                spoon[i].image = game.assets[];
+            }
+        });
+        //aaa;
         // spoon[1].addEventListener('touchstart', function() {
         //     for(var i=2; i<4; i++) {
         //         spoon[i].image = game.assets[];
